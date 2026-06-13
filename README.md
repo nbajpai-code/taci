@@ -270,9 +270,15 @@ If you want to practice your systems engineering skills, reading is not enough. 
 
 ## Must-Read Books for Systems Engineers
 
-| Title | Authors | Focus |
-| :--- | :--- | :--- |
-| **UNIX and Linux System Administration Handbook** | Evi Nemeth, Garth Snyder, et al. | Systems administration fundamentals |
-| **Site Reliability Engineering** | Betsy Beyer, Chris Jones, et al. | Scaling operations at Google |
-| **Systems Performance: Enterprise and the Cloud** | Brendan Gregg | Operating system tuning and kernel diagnostics |
-| **Designing Data-Intensive Applications** | Martin Kleppmann | Distributed systems design and data architectures |
+| Title | Authors | Core Focus | Why it's Essential |
+| :--- | :--- | :--- | :--- |
+| **UNIX and Linux System Administration Handbook** | Evi Nemeth, Garth Snyder, et al. | Systems administration fundamentals | The definitive guide to standard administrative workflows, filesystems, networking, and daemon configurations. |
+| **Site Reliability Engineering** | Betsy Beyer, Chris Jones, et al. | Scaling operations & reliability | The SRE "bible" explaining Google's approach to uptime management, alerts, SLIs/SLOs, and post-mortems. |
+| **The Site Reliability Workbook** | Betsy Beyer, Chris Jones, et al. | Practical SRE implementation | Follow-up guide containing templates, configurations, and case studies on adopting SRE practices. |
+| **Systems Performance: Enterprise and the Cloud** | Brendan Gregg | Operating system & dynamic tuning | The gold standard for investigating and debugging memory, CPU, disk, and network bottlenecks using tracing tools. |
+| **BPF Performance Tools** | Brendan Gregg | eBPF diagnostics & tracing | Hands-on manual for using eBPF and bpftrace to dynamically inspect kernel calls and metrics without side-effects. |
+| **Designing Data-Intensive Applications** | Martin Kleppmann | Distributed systems design | The definitive book on data persistence, database replication, replication lag, partitioning, and consistency. |
+| **TCP/IP Illustrated, Volume 1: The Protocols** | W. Richard Stevens, Kevin R. Fall | Network protocols & standard loops | The absolute standard guide detailing the lower-level mechanics of transport, network, and application layer protocols. |
+| **Release It!: Design and Deploy Production-Ready Software** | Michael T. Nygard | Operational safety & failure modes | Teaches how to write systems that fail gracefully using circuit breakers, bulkheads, and timeout controls. |
+| **The Practice of System and Network Administration** | Thomas A. Limoncelli, et al. | Infrastructure scaling & operations | Detailed blueprints on building, structuring, and managing enterprise systems departments and assets. |
+| **Accelerate: The Science of Lean Software and DevOps** | Nicole Forsgren, Jez Humble, et al. | Operational metrics & performance | Evaluates key metrics (MTTR, Deployment Frequency) that separate high-performing engineering teams from laggards. |
